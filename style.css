@@ -22,7 +22,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode:overlay ;
+    background-blend-mode: overlay;
 }
 
 .banner-content {
@@ -36,78 +36,208 @@ body {
 .banner-container p {
     color: white;
     margin: 10px 0;
-}
-
-.banner-container p {
     font-size: 32px;
     font-weight: 400;
 }
 
 .banner-container h1 {
+    color: white;
     font-size: 72px;
     font-weight: 900;
 }
 
-
-
-/* 65% section style starts here  */
-
-.second-section-container{
-   width: 802.9px;
-   height: 806px;
-   margin: 0 auto;
-   border: 2px solid red;
-   margin-top: 90px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-
-}
-
-.second-section-content{
+/* 65% section style starts here */
+.second-section-container {
+    width: 802.9px;
+    height: 806px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 90px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }
 
-.second-section-content h1{
-    color: rgba(255,0,0);
-    font-family: inherit;
+.second-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section-content h1 {
+    color: rgba(255, 0, 0);
+    font-family: 'Inter', sans-serif;
     font-size: 88px;
     font-weight: 700;
 }
-.econd-section-content p{
-    color: rgba(255,0,0);
-    font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-    
+
+.second-section-content p {
+    color: rgba(255, 0, 0);
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
 }
-.second-section-content h3{
+
+.second-section-content h3 {
     color: rgb(7, 2, 17);
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-line-height: 58px;
-letter-spacing: 0%;
-text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
 }
- 
-.image-container{
-  
 
-width: 802.9px;
-height: 500px;
-
+.image-container {
+    width: 802.9px;
+    height: 500px;
 }
-.image-container img{
-  
 
+.image-container img {
     width: 100%;
     height: 100%;
-    
-    }
+}
+
+/* Midnight section style starts here */
+.midnight-party-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('/new-year-offer-resources/images/Vectorrr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.leftside-content,
+.rightside-content {
+    width: 50%;
+    height: 600px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+}
+
+.leftside-content {
+    border-color: green;
+}
+
+.rightside-content {
+    border-color: rgb(247, 222, 2);
+}
+
+/* Holiday section style starts here */
+.holiday-section-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.holiday-section-container h4 {
+    font-size: 24px;
+    color: #333;
+}
+
+.holiday-section-container h1 {
+    font-size: 48px;
+    color: #111;
+    margin: 20px 0;
+}
+
+.holiday-section-container p {
+    font-size: 18px;
+    color: #555;
+    margin: 20px 0;
+}
+
+/* Footer section style */
+.footer-container {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container div {
+    margin-bottom: 20px;
+}
+
+.footer-first-section p,
+.footer-first-section .contact p,
+.footer-first-section a {
+    color: white;
+    margin: 10px 0;
+}
+
+.footer-first-section .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-first-section .contact i {
+    margin-right: 10px;
+}
+
+.footer-second-section,
+.footer-third-section,
+.footer-fourth-section {
+    margin: 20px 0;
+}
+
+.footer-second-section h2,
+.footer-third-section h2,
+.footer-fourth-section h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.footer-third-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-third-section ul li {
+    margin: 10px 0;
+}
+
+.footer-third-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-third-section ul li a:hover {
+    color: #f39c12;
+}
+
+.footer-fourth-section .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-fourth-section .social-icons li a {
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.footer-fourth-section .social-icons li a:hover {
+    color: #f39c12;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
